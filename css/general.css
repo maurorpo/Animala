@@ -1,0 +1,110 @@
+.display-inline {
+  display: inline-block; }
+
+.ico_quantity {
+  text-align: center;
+  border: solid 1px #dedede;
+  color: #dedede;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 17px;
+  position: relative;
+  top: 3px;
+  width: 20px;
+  height: 20px; }
+
+.edit_quantity {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%); }
+  .edit_quantity .number_quantity {
+    color: #979797;
+    font-size: 17px; }
+
+.btn {
+  border-radius: 0;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  font-size: 17px;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%; }
+  .btn_orange {
+    background-color: #ff8003;
+    color: #fff; }
+
+.no-padding {
+  padding: 0; }
+
+.text-center {
+  text-align: center; }
+
+.t-basic {
+  font-family: "Roboto", sans-serif; }
+  .t-basic_60 {
+    font-size: 60px; }
+  .t-basic_28 {
+    font-size: 28px; }
+  .t-basic_20 {
+    font-size: 19px; }
+  .t-basic_17 {
+    font-size: 17px; }
+  .t-basic_coffe {
+    color: #3f2701; }
+  .t-basic_gray {
+    color: #979797; }
+  .t-basic_gray2 {
+    color: #626262; }
+  .t-basic_red {
+    color: #f84144; }
+  .t-basic_white {
+    color: #fff; }
+  .t-basic_orange {
+    color: #ff8003; }
+  .t-basic_light {
+    font-weight: 200; }
+  .t-basic_medium {
+    font-weight: 400; }
+
+.text-basic {
+  font-family: "Roboto", sans-serif; }
+  .text-basic_blue2 {
+    color: #006abf; }
+  .text-basic_blue {
+    color: #00c1f8; }
+  .text-basic_gray {
+    color: #979797; }
+  .text-basic_gray2 {
+    color: #626262; }
+  .text-basic_red {
+    color: #f84144; }
+  .text-basic_white {
+    color: #fff; }
+  .text-basic_20 {
+    font-size: 19px; }
+  .text-basic_17 {
+    font-size: 17px; }
+  .text-basic_14 {
+    font-size: 14px; }
+  .text-basic_light {
+    font-weight: 200; }
+  .text-basic_medium {
+    font-weight: 400; }
+  .text-basic_book {
+    font-weight: 600; }
+
+.list-basic {
+  margin: 0;
+  padding: 0; }
+  .list-basic li {
+    list-style: none; }
+
+.list-inline {
+  margin: 0;
+  padding: 0; }
+  .list-inline li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 auto; }

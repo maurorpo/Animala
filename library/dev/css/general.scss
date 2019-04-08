@@ -1,0 +1,105 @@
+@import 'vars.scss';
+
+.display-inline { display: inline-block; }
+
+.ico_quantity {
+	text-align: center;
+	border: solid 1px $gray3;
+	color: $gray3;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 17px;
+	position: relative;
+	top: 3px;
+	width: 20px; height: 20px;
+}
+
+.edit_quantity {
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	transform: translate(0%, -50%);
+
+	.number_quantity {
+		color: $gray-c;
+		font-size: 17px;
+	}
+}
+
+.btn {
+	border-radius: 0;
+	font-family: $roboto;
+	display: block;
+	font-size: 17px;
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+
+	&_orange {
+		background-color: $orange-c;
+		color: $white-c;
+	}
+}
+
+.no-padding { padding: 0; }
+
+.text-center { text-align: center; }
+
+.t-basic {
+	font-family: $roboto;
+
+	&_60 			{ font-size: 60px; }
+	&_28 			{ font-size: 28px; }
+	&_20 			{ font-size: 19px; }
+	&_17 			{ font-size: 17px; }
+
+	&_coffe 	{ color: $coffe; }
+	&_gray 		{ color: $gray-c; }
+	&_gray2 	{ color: $gray2; }
+	&_red 		{ color: $red-c; }
+	&_white 	{ color: $white-c; }
+	&_orange 	{ color: $orange-c }
+
+	&_light 	{ font-weight: 200 }
+	&_medium 	{ font-weight: 400 }
+}
+
+.text-basic {
+	font-family: $roboto;
+
+	&_blue2 { color: $blue2 }
+	&_blue 	{ color: $blue-c }
+	&_gray 	{ color: $gray-c; }
+	&_gray2 	{ color: $gray2; }
+	&_red   { color: $red-c }
+	&_white   { color: $white-c }
+
+	
+	&_20 		{ font-size: 19px; }
+	&_17 		{ font-size: 17px; }
+	&_14 		{ font-size: 14px; }
+
+	&_light 	{ font-weight: 200 }
+	&_medium 	{ font-weight: 400 }
+	&_book 	{ font-weight: 600 }
+}
+
+.list-basic {
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style: none;
+	}
+}
+
+.list-inline {
+	margin: 0;
+	padding: 0;
+
+	li {
+		display: inline-block;
+		list-style: none;
+		margin: 0 auto;
+	}
+}
