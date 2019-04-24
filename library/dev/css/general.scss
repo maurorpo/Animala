@@ -1,5 +1,56 @@
 @import 'vars.scss';
 
+#footer_nav {
+	background-color: $white-c;
+	box-shadow: -1px 0px 5px 1px #afafaf;
+	bottom: 0;
+	text-align: center;
+	padding: 14px 10px;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+
+	a {
+		color: $gray-c;
+		font-family: $roboto;
+		font-size: 16px;
+	}
+
+	i {
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+
+	li {
+		width: 19%;
+
+		&:nth-child(3) {
+			position: relative;
+
+			a {
+				border-radius: 50%;
+				box-shadow: 0px 5px 10px 1px $orange-c;
+				color: $white-c;
+				background: $orange-c;
+				padding: 15px;
+				width: 60px; height: 60px;
+				position: relative;
+				top: -40px;
+				display: block;
+			}
+
+			i {
+				font-size: 30px;
+				margin: 0;
+			}
+		}
+	}
+
+	ul {
+	}
+
+}
+
 .display-inline { display: inline-block; }
 
 .ico_quantity {
