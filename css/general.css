@@ -1,3 +1,6 @@
+* {
+  outline: none; }
+
 #footer_nav {
   background-color: #fff;
   -webkit-box-shadow: -1px 0px 5px 1px #afafaf;
@@ -9,9 +12,12 @@
   z-index: 99;
   width: 100%; }
   #footer_nav a {
+    text-decoration: none;
     color: #979797;
     font-family: "Roboto", sans-serif;
     font-size: 16px; }
+    #footer_nav a:hover {
+      text-decoration: none; }
   #footer_nav i {
     font-size: 20px;
     margin-bottom: 5px; }
@@ -37,6 +43,35 @@
 
 .display-inline {
   display: inline-block; }
+
+.form_login {
+  margin-top: 40px; }
+  .form_login .item_form {
+    float: left;
+    margin: 0 4%;
+    text-align: left; }
+    .form_login .item_form label {
+      opacity: 0;
+      color: #ff8003;
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      font-size: 16px; }
+    .form_login .item_form input {
+      color: #626262;
+      font-family: "Roboto", sans-serif;
+      border: none;
+      border-bottom: solid #dedede 1px;
+      height: 50px;
+      width: 100%; }
+  .form_login .item_indicator {
+    width: 48px; }
+    .form_login .item_indicator label {
+      opacity: 1; }
+
+.actions {
+  margin-top: 90%; }
+  .actions .text-basic {
+    margin-top: 20px; }
 
 .ico_quantity {
   text-align: center;
@@ -104,6 +139,11 @@
     font-weight: 200; }
   .t-basic_medium {
     font-weight: 400; }
+
+.tab-content {
+  padding-top: 40px; }
+  .tab-content .products-shop .list-basic li {
+    margin: 15px 0; }
 
 .text-basic {
   font-family: "Roboto", sans-serif; }

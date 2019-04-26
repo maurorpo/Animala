@@ -1,5 +1,9 @@
 @import 'vars.scss';
 
+*{
+	outline: none;
+}
+
 #footer_nav {
 	background-color: $white-c;
 	box-shadow: -1px 0px 5px 1px #afafaf;
@@ -11,9 +15,12 @@
 	width: 100%;
 
 	a {
+		text-decoration: none;
 		color: $gray-c;
 		font-family: $roboto;
 		font-size: 16px;
+
+		&:hover { text-decoration: none;  }
 	}
 
 	i {
@@ -52,6 +59,47 @@
 }
 
 .display-inline { display: inline-block; }
+
+.form_login {
+	margin-top: 40px;
+	.item_form  {
+		float: left;
+		margin: 0 4%;
+		text-align: left;
+
+		label {
+			opacity: 0;
+			color: $orange-c;
+			font-family: $roboto;
+			font-weight: 300;
+			font-size: 16px;
+		}
+
+		input {
+			color: $gray2;
+			font-family: $roboto;
+			border: none;
+			border-bottom: solid $gray3 1px;
+			height: 50px;
+			width: 100%;
+		}
+
+	}
+
+	.item_indicator {
+		width: 48px;
+
+		label { opacity: 1;  }
+	}
+}
+
+.actions {
+	margin-top: 90%;
+
+	.text-basic {
+		margin-top: 20px;
+	}
+}
 
 .ico_quantity {
 	text-align: center;
@@ -113,6 +161,18 @@
 
 	&_light 	{ font-weight: 200 }
 	&_medium 	{ font-weight: 400 }
+}
+
+.tab-content {
+	padding-top: 40px;
+
+	.products-shop {
+		.list-basic {
+			li {
+				margin: 15px 0;
+			}
+		}
+	}
 }
 
 .text-basic {
